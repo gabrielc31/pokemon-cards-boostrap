@@ -27,12 +27,17 @@ a {
 }
 
 .card-img img {
+    border-radius: 30px;
     height: 100%;
     width: 100%;
 }
 
 .blur{
-    filter:blur(20px);
+    filter:blur(15px);
+}
+
+.blur:hover{
+    filter:none;
 }
 
 

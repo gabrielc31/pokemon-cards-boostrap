@@ -6,10 +6,20 @@ body {
     width: 75%;
 }
 
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.link-card{
+    width:33%;
+}
+
 .card {
     border: 5px solid black;
     border-radius: 30px;
-    width: 33%
+    height:100%;
 }
 
 .card-img {
@@ -21,24 +31,26 @@ body {
     width: 100%;
 }
 
+.blur{
+    filter:blur(20px);
+}
 
-@media screen and (min-width:740px)and (max-width:1000px) {
-   
-    .card {
-        width: 50%
+
+@media screen and (min-width:740px)and (max-width:1500px) {
+    .link-card{
+        width:50%;
     }
-
+    
     .card-container {
         width: 99%;
     }
 }
 
 @media screen and (max-width:740px) {
-
-    .card {
-        width: 100%
+    .link-card{
+        width:100%;
     }
-
+    
     .card-container {
         width: 99%;
     }

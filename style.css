@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+.card-container {
+    width: 75%;
+}
+
+.card {
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 33%
+}
+
+.card-img {
+    height: 30rem;
+}
+
+.card-img img {
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (min-width:740px)and (max-width:1000px) {
+   
+    .card {
+        width: 50%
+    }
+
+    .card-container {
+        width: 99%;
+    }
+}
+
+@media screen and (max-width:740px) {
+
+    .card {
+        width: 100%
+    }
+
+    .card-container {
+        width: 99%;
+    }
+}

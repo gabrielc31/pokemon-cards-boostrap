@@ -1,3 +1,2 @@
 # pokemon-cards-boostrap
-
-teste
+Project created with the intention of studying bootstrap
